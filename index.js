@@ -5,6 +5,7 @@ const displayResult = () => {
     let enteredNumber = document.querySelector('.js-creditcardnumber');
     let validationResult = document.querySelector('.js-validationResult');
 
+    // If no number is entered into the card input field, Validation Result should output empty
     if (enteredNumber.value === '') {
         return validationResult.innerHTML = "";
     }
